@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ua test</title>
+</head>
+<body>
+    
+<!--
+Test dims:
+
+1518x853
+1366x758
+1301x731
+1242x698
+1188x668
+1138x640
+1093x614
+1051x591
+911x512
+-->
+
+<script language="javascript">
+
+const s  = screen;
+const sw = s.width;
+const sh = s.height;
+
+const html = [];
+html.push('<pre>');
+html.push('screen.width:\t' + sw);
+html.push('screen.height:\t' + sh);
+
+document.write(html.join('\n'));
+
+</script>
+
+<Style>
+body {
+    font-size: 24pt;
+}
+</Style>
+</body>
+</html>
