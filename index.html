@@ -30,15 +30,16 @@ Test dims:
 
 <script language="javascript">
 
-const s  = screen;
-const sw = s.width;
-const sh = s.height;
-
 const html = [];
+html.push('<p>');
+html.push('userAgent:\t' + navigator.userAgent);
+html.push('</p>');
 html.push('<pre>');
-html.push('screen.width:\t' + sw);
-html.push('screen.height:\t' + sh);
-
+html.push('\n');
+html.push('screen.width:\t' + screen.width);
+html.push('screen.height:\t' + screen.height);
+html.push('</pre>');
+    
 document.write(html.join('\n'));
 
 </script>
